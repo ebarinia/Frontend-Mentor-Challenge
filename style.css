@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+.toppage,.main-text,.description{
+    display: flex;  
+}
+.logo{
+    height: 80px;
+    width: 250px;
+    position: relative;
+    left: 25%;
+    top: 10%;
+    margin-top: 1%;
+}
+.container{
+    margin-top: -3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 600px;
+    background-color: hsl(256, 26%, 20%);
+}
+.image-intro{
+    position: relative;
+    float: right;
+    right:10%;
+    top: -55%;
+}
+.pattern-right{
+    position:absolute;
+    float: right;
+    left: 62%;
+    z-index: 1;
+    opacity: 70%;
+}
+.pattern-left{
+    position:absolute;
+    float: left;
+    z-index: 1;
+    top: 45%;
+    opacity: 70%;
+}
+.links{
+    position: absolute;
+    right: 20%;
+    margin-top: -80px;
+    color: white;
+    opacity: 70%;
+}
+.plans{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 60%;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.body-text{
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 50px;
+    margin-left: 15%;
+    margin-right: 60%;
+    padding-top: 10px;
+    position: relative;
+    left: 10%;
+}
+.hr-body-text{
+    color: hsl(270, 9%, 17%);
+    margin-top: 13%;
+    margin-left: 25%;
+    opacity: 50%;
+    width: 7%;
+}
+.icons{
+    display: inline-block;
+    width: 70px;
+    height: 80px;
+    margin-top: 90px;
+    display: flex;
+}
+.icon1,.snappy{
+    margin-left: 470px;
+}
+.icon2{
+    margin-left: 300px;
+}
+.icon3,.people{
+    margin-left: 300px;
+}
+.affordable{
+    margin-left: 220px;
+}
+.people{
+    margin-left: 210px;
+}
+.main-text{
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+}
+hr{
+    width: 10%;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-left: 130px;
+    position: relative;
+    top: 20%;
+    
+}
+a{
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+h1{ 
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 60%;
+    padding-top: 140px;
+    text-align: justify;
+    line-height: 1;
+}
+p{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 60%;
+    text-align: justify;
+    opacity: 70%;
+}
